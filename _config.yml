@@ -1,0 +1,7 @@
+title: my blog
+email: test@example.com
+description: lorem ipsum dolor sit amet consectetur
+
+theme: minima
+minima:
+  skin: solarized-dark
