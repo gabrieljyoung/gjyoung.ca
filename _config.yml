@@ -1,7 +1,7 @@
-title: my blog
-email: test@example.com
-description: lorem ipsum dolor sit amet consectetur
+title: gjyoung.ca
+description: "email: 'hi' at this domain"
 
 theme: minima
-minima:
-  skin: solarized-dark
+
+github_username: gabrieljyoung
+linkedin_username: gj-young

@@ -2,5 +2,5 @@
 layout: home
 ---
 
-welcome to my blog(tm)
+Welcome! Please excuse the unimaginative page theme.
 
