@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Gabriel J. Young</title>
-	</head>
 
-	<body>
-		<img src="assets/free-parking.png"/>
+<head>
+	<title>Gabriel J. Young</title>
+</head>
+
+<body>
+	<main>
+		<img src="assets/free-parking.png" />
+		<br />
+		<br />
+		<span><b>Gabriel J. Young</b></span>
 		<br />
 		<div>
 			<a href="https://github.com/gabrieljyoung">GitHub</a>
 			<span class="diamond">&#11049;</span>
 			<a href="https://linkedin.com/in/gj-young">LinkedIn</a>
 			<span class="diamond">&#11049;</span>
-			<span title="hi (at) gjyoung.ca">Email</a>
+			<span title="'gabriel' at this domain">Email</a>
 		</div>
-	</body>
+	</main>
+
+	<footer>
+		<span><b>Disclaimer:</b> Not affiliated with Hasbro, Parker Brothers, or Atlantic City, New Jersey. Do not pass Go,
+			do not collect $200.</span>
+	</footer>
+</body>
+
 </html>
 
 <style>
@@ -32,13 +44,21 @@
 		height: 100vh;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
 		margin: 0;
 
 		background-color: antiquewhite;
 		font-family: "Neue Kabel Book", sans-serif;
 		font-size: 18px;
+	}
+
+	main {
+		flex: 1;
+		padding: 80px 0;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 
 	a {
@@ -53,5 +73,17 @@
 	span.diamond {
 		font-size: 16px;
 		margin: 0 4px;
+	}
+
+	footer {
+		flex: 0 0 100px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	footer span {
+		font-size: 14px;
+		color: grey;
 	}
 </style>
